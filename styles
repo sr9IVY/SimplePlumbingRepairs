@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fefefe;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background-color: #e0f7fa;
+    padding: 20px;
+}
+
+.hero-image {
+    width: 80%;
+    max-width: 600px;
+    margin: 20px auto;
+    display: block;
+}
+
+footer nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #0077cc;
+}
+
+footer nav a:hover {
+    text-decoration: underline;
+}
