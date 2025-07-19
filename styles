@@ -1,14 +1,20 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #fefefe;
+    background-color: #87ceeb; /* soft sky blue */
     margin: 0;
     padding: 0;
+    color: white;
     text-align: center;
 }
 
 header {
-    background-color: #e0f7fa;
+    background-color: #006400; /* dark green */
     padding: 20px;
+}
+
+header h1 {
+    color: white;
+    margin: 0;
 }
 
 .hero-image {
@@ -16,7 +22,40 @@ header {
     height: 3in;
     display: block;
     margin: 20px auto;
-    object-fit: cover; /* ensures it fills the size without distortion */
+    object-fit: cover;
+}
+
+.intro {
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.info-section {
+    text-align: left;
+    padding: 20px;
+}
+
+.blog-invite {
+    background-color: white;
+    color: black;
+    padding: 20px;
+    margin: 30px 20px;
+    border-radius: 10px;
+    text-align: left;
+}
+
+form input {
+    width: 90%;
+    padding: 8px;
+    font-size: 16px;
+}
+
+form button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-top: 10px;
 }
 
 footer nav a {
