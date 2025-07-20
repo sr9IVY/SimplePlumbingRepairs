@@ -1,0 +1,42 @@
+/* alt-styles.css — used ONLY by Pages 1–4 */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #87ceeb;
+    margin: 0;
+    padding: 0;
+    color: white;
+    text-align: left; /* ← left-align ALL body content */
+}
+
+header {
+    background-color: #006400;
+    padding: 20px;
+}
+
+header h1 {
+    color: white;
+    margin: 0;
+}
+
+main, .content-area {
+    padding: 20px;
+    text-align: left;
+}
+
+img.hero-image {
+    width: 4in;
+    height: 3in;
+    display: block;
+    margin: 20px auto;
+    object-fit: cover;
+}
+
+footer nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #0077cc;
+}
+
+footer nav a:hover {
+    text-decoration: underline;
+}
