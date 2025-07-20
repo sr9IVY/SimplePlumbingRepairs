@@ -3,7 +3,7 @@ body {
     background-color: #fefefe;
     margin: 0;
     padding: 0;
-    text-align: center;
+    text-align: left;
 }
 
 header {
@@ -23,6 +23,7 @@ footer nav a {
     margin: 0 10px;
     text-decoration: none;
     color: #0077cc;
+    text-align: left;
 }
 
 footer nav a:hover {
